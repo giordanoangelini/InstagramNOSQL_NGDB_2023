@@ -2,11 +2,11 @@ import random
 import json
 import datetime
 
-USERS_NUMBER = 10
-MAX_POSTS_NUMBER = int(USERS_NUMBER/2)
-MAX_STORIES_NUMBER = int(USERS_NUMBER/3)
-MAX_COMMENT_NUMBER = int(USERS_NUMBER/5)
-HASHTAG_NUMBER = 5
+USERS_NUMBER = 100
+MAX_POSTS_NUMBER = USERS_NUMBER
+MAX_STORIES_NUMBER = USERS_NUMBER
+MAX_COMMENT_NUMBER = USERS_NUMBER
+HASHTAG_NUMBER = 100
 THREAD_NUMBER = int(USERS_NUMBER/5)
 
 POST_PARTITIONING = 5
@@ -153,7 +153,7 @@ def generate_hashtags():
 
 def generate_chats():
     chats_array = []
-    for i in range(USERS_NUMBER*5):
+    for i in range(random.randint(0,USERS_NUMBER*5)):
         chats_array.append({
             "idChat": f"C{i}",
             "detailsC": {
@@ -176,7 +176,7 @@ def generate_directs():
     idChat_list = list(map(lambda x: x["idChat"], chats_array))
 
     directs_array = []
-    for i in range(USERS_NUMBER*50):
+    for i in range(random.randint(0,USERS_NUMBER*50)):
         directs_array.append({
             "idDirect": f"D{i}",
             "detailsD": {
@@ -198,7 +198,7 @@ def generate_threads():
     post_file = open('output/post.json')
     posts_array = json.load(post_file)
 
-    for i in range(THREAD_NUMBER):
+    for i in range(random.randint(0,THREAD_NUMBER)):
         threads_array.append({
             "idThread": f"T{i}",
             "detailsT": {
@@ -244,10 +244,7 @@ def update_users():
     story_file = open('output/story.json')
     stories_array = json.load(story_file)
     for user in users_array:
-        for post in posts_array:
-            if post["ownUP"] == user["username"]: user["ownUP"].append(post["idPost"])
-        for story in stories_array:
-            if story["ownUS"] == user["username"]: user["ownUS"].append(story["idStory"])
+
         filtered_posts = list(filter(lambda x: x["ownUP"] == user["username"], posts_array))
         filtered_posts.sort(key = lambda x: x["detailsP"]["timestamp"], reverse=False)
         filtered_posts = list(map(lambda x: x["idPost"], filtered_posts))
@@ -256,6 +253,13 @@ def update_users():
         filtered_stories.sort(key = lambda x: x["detailsS"]["timestamp"], reverse=False)
         filtered_stories = list(map(lambda x: x["idStory"], filtered_stories))
         user["latestOwnUS"] = filtered_stories[:STORY_PARTITIONING-1]
+
+        for post in posts_array:
+            if post["ownUP"] == user["username"] and post["idPost"] not in user["latestOwnUP"] :
+                user["ownUP"].append(post["idPost"])
+        for story in stories_array:
+            if story["ownUS"] == user["username"] and story["idStory"] not in user["latestOwnUS"] :
+                user["ownUS"].append(story["idStory"])
 
     # UPDATE THREAD OWN
     thread_file = open('output/thread.json')
@@ -284,13 +288,20 @@ def update_posts():
             post["likeUP"].append(random.choice(list(set(username_list)-set(post["likeUP"]))))
         for i in range(random.randint(0,3)):
             post["tagUP"].append(random.choice(list(set(username_list)-set(post["tagUP"]))))
-        for comment in comments_array:
-            filtered_comments = list(filter(lambda x: x["includePC"] == post["idPost"], comments_array))
-            filtered_comments.sort(key = lambda x: x["likesCountC"], reverse=True)
-            post["mostLiked"] = filtered_comments[:COMMENT_PARTITIONING-1]
+        
+        
+        filtered_comments = list(filter(lambda x: x["includePC"] == post["idPost"], comments_array))
+        filtered_comments.sort(key = lambda x: x["likesCountC"], reverse=True)
+        post["mostLiked"] = filtered_comments[:COMMENT_PARTITIONING-1]
+        
+        # REMOVE AGGREGATED
+        comments_array = list(filter(lambda x: x not in post["mostLiked"], comments_array)) 
     
     with open('output/post.json', 'w') as outfile:
         json.dump(posts_array, outfile, indent=4)
+    
+    with open('output/comment.json', 'w') as outfile:
+        json.dump(comments_array, outfile, indent=4)
 
 def update_stories():
     user_file = open('output/user.json')
@@ -338,6 +349,12 @@ def update_hashtags():
     comment_file = open('output/comment.json')
     comments_array = json.load(comment_file)
 
+    # NOT ENOUGH COMMENTS PROBLEM
+    other_comments = list(map(lambda x: x["mostLiked"], posts_array))
+    other_comments = [item for sublist in other_comments for item in sublist]
+
+    new_comments_array = comments_array + other_comments
+
     hashtag_file = open('output/hashtag.json')
     hashtags_array = json.load(hashtag_file)
 
@@ -360,11 +377,11 @@ def update_hashtags():
             chosen_stories.append(random_story)
         chosen_comments = []
         for i in range(hashtag["commentsCountH"]):
-            random_comment = random.choice(list(comments_array))
+            random_comment = random.choice(list(new_comments_array))
             if random_comment in chosen_comments:
                 i -= 1
                 break    
-            random_comment["includeCH"].append(hashtag["idHashtag"])
+            random_comment["includeCH"].append(hashtag)
             chosen_comments.append(random_comment)
 
     with open('output/post.json', 'w') as outfile:
@@ -398,9 +415,14 @@ def update_chats():
         filtered_directs.sort(key = lambda x: x["detailsD"]["timestamp"], reverse=False)
         chat["latestInDC"] = filtered_directs[:DIRECT_PARTITIONING-1]
 
-    
+        # REMOVE AGGREGATED
+        directs_array = list(filter(lambda x: x not in chat["latestInDC"], directs_array))
+
     with open('output/chat.json', 'w') as outfile:
         json.dump(chats_array, outfile, indent=4)
+
+    with open('output/direct.json', 'w') as outfile:
+        json.dump(directs_array, outfile, indent=4)
 
 
 def update_threads():
@@ -425,8 +447,14 @@ def update_threads():
         filtered_posts.sort(key = lambda x: x["detailsP"]["timestamp"], reverse=False)
         thread["latestIncludePT"] = filtered_posts[:THREAD_PARTITIONING-1]
 
+        # REMOVE AGGREGATED
+        posts_array = list(filter(lambda x: x not in thread["latestIncludePT"], posts_array))
+
     with open('output/thread.json', 'w') as outfile:
         json.dump(threads_array, outfile, indent=4)
+
+    with open('output/post.json', 'w') as outfile:
+        json.dump(posts_array, outfile, indent=4)
 
 if __name__ == '__main__':
     generate_users()
