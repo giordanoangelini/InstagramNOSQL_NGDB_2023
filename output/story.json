@@ -1,0 +1,434 @@
+[
+    {
+        "idStory": "U0S0",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365578,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U0",
+        "likesCount": 1,
+        "likeUS": [
+            "U5"
+        ],
+        "tagUS": [
+            "U9",
+            "U0",
+            "U6"
+        ],
+        "reactionUS": [],
+        "includeSH": []
+    },
+    {
+        "idStory": "U1S0",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.3656,
+            "place": "",
+            "music": "",
+            "evidence": false
+        },
+        "ownUS": "U1",
+        "likesCount": 9,
+        "likeUS": [
+            "U2",
+            "U0",
+            "U3",
+            "U4",
+            "U1",
+            "U9",
+            "U7",
+            "U8",
+            "U5"
+        ],
+        "tagUS": [
+            "U9",
+            "U1",
+            "U0"
+        ],
+        "reactionUS": [
+            "U8"
+        ],
+        "includeSH": [
+            "H1"
+        ]
+    },
+    {
+        "idStory": "U1S1",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.36561,
+            "place": "",
+            "music": "",
+            "evidence": false
+        },
+        "ownUS": "U1",
+        "likesCount": 3,
+        "likeUS": [
+            "U9",
+            "U2",
+            "U3"
+        ],
+        "tagUS": [
+            "U2",
+            "U8",
+            "U0"
+        ],
+        "reactionUS": [
+            "U6"
+        ],
+        "includeSH": [
+            "H2"
+        ]
+    },
+    {
+        "idStory": "U3S0",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365621,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U3",
+        "likesCount": 5,
+        "likeUS": [
+            "U9",
+            "U7",
+            "U6",
+            "U4",
+            "U2"
+        ],
+        "tagUS": [],
+        "reactionUS": [
+            "U1",
+            "U2"
+        ],
+        "includeSH": [
+            "H2",
+            "H3"
+        ]
+    },
+    {
+        "idStory": "U3S1",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365633,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U3",
+        "likesCount": 8,
+        "likeUS": [
+            "U6",
+            "U7",
+            "U1",
+            "U4",
+            "U5",
+            "U2",
+            "U8",
+            "U3"
+        ],
+        "tagUS": [
+            "U7",
+            "U3"
+        ],
+        "reactionUS": [],
+        "includeSH": [
+            "H3"
+        ]
+    },
+    {
+        "idStory": "U3S2",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365643,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U3",
+        "likesCount": 0,
+        "likeUS": [],
+        "tagUS": [],
+        "reactionUS": [
+            "U6"
+        ],
+        "includeSH": [
+            "H0",
+            "H1",
+            "H2",
+            "H3"
+        ]
+    },
+    {
+        "idStory": "U5S0",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365655,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U5",
+        "likesCount": 6,
+        "likeUS": [
+            "U2",
+            "U4",
+            "U0",
+            "U5",
+            "U3",
+            "U7"
+        ],
+        "tagUS": [
+            "U4",
+            "U0"
+        ],
+        "reactionUS": [],
+        "includeSH": [
+            "H2"
+        ]
+    },
+    {
+        "idStory": "U5S1",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365662,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U5",
+        "likesCount": 6,
+        "likeUS": [
+            "U4",
+            "U1",
+            "U6",
+            "U5",
+            "U0",
+            "U7"
+        ],
+        "tagUS": [
+            "U4"
+        ],
+        "reactionUS": [
+            "U8",
+            "U3"
+        ],
+        "includeSH": []
+    },
+    {
+        "idStory": "U5S2",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365669,
+            "place": "",
+            "music": "",
+            "evidence": false
+        },
+        "ownUS": "U5",
+        "likesCount": 3,
+        "likeUS": [
+            "U8",
+            "U7",
+            "U6"
+        ],
+        "tagUS": [
+            "U9"
+        ],
+        "reactionUS": [
+            "U7"
+        ],
+        "includeSH": [
+            "H2",
+            "H3"
+        ]
+    },
+    {
+        "idStory": "U6S0",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365677,
+            "place": "",
+            "music": "",
+            "evidence": false
+        },
+        "ownUS": "U6",
+        "likesCount": 4,
+        "likeUS": [
+            "U9",
+            "U2",
+            "U6",
+            "U1"
+        ],
+        "tagUS": [
+            "U1",
+            "U8",
+            "U2"
+        ],
+        "reactionUS": [
+            "U9",
+            "U4",
+            "U5"
+        ],
+        "includeSH": []
+    },
+    {
+        "idStory": "U6S1",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365685,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U6",
+        "likesCount": 4,
+        "likeUS": [
+            "U0",
+            "U3",
+            "U2",
+            "U1"
+        ],
+        "tagUS": [],
+        "reactionUS": [
+            "U8"
+        ],
+        "includeSH": [
+            "H1",
+            "H2",
+            "H3"
+        ]
+    },
+    {
+        "idStory": "U7S0",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365694,
+            "place": "",
+            "music": "",
+            "evidence": false
+        },
+        "ownUS": "U7",
+        "likesCount": 8,
+        "likeUS": [
+            "U3",
+            "U9",
+            "U7",
+            "U0",
+            "U1",
+            "U6",
+            "U4",
+            "U8"
+        ],
+        "tagUS": [
+            "U4"
+        ],
+        "reactionUS": [
+            "U4",
+            "U9"
+        ],
+        "includeSH": [
+            "H0",
+            "H2",
+            "H3"
+        ]
+    },
+    {
+        "idStory": "U8S0",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365702,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U8",
+        "likesCount": 3,
+        "likeUS": [
+            "U3",
+            "U4",
+            "U5"
+        ],
+        "tagUS": [],
+        "reactionUS": [
+            "U3",
+            "U9",
+            "U0"
+        ],
+        "includeSH": []
+    },
+    {
+        "idStory": "U8S1",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365708,
+            "place": "",
+            "music": "",
+            "evidence": true
+        },
+        "ownUS": "U8",
+        "likesCount": 5,
+        "likeUS": [
+            "U8",
+            "U4",
+            "U2",
+            "U7",
+            "U5"
+        ],
+        "tagUS": [],
+        "reactionUS": [
+            "U3"
+        ],
+        "includeSH": [
+            "H2",
+            "H3"
+        ]
+    },
+    {
+        "idStory": "U9S0",
+        "detailsS": {
+            "media": "",
+            "restricted": false,
+            "timestamp": 1694598167.365717,
+            "place": "",
+            "music": "",
+            "evidence": false
+        },
+        "ownUS": "U9",
+        "likesCount": 3,
+        "likeUS": [
+            "U3",
+            "U0",
+            "U6"
+        ],
+        "tagUS": [
+            "U3"
+        ],
+        "reactionUS": [
+            "U9",
+            "U2"
+        ],
+        "includeSH": [
+            "H2",
+            "H3"
+        ]
+    }
+]

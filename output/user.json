@@ -1,0 +1,485 @@
+[
+    {
+        "username": "U0",
+        "detailsU": {
+            "name": "Ailene",
+            "biography": "",
+            "birthday": "",
+            "email": "Ailene.0@email.com",
+            "phoneNumber": "",
+            "password": "password_Ailene",
+            "profileImage": "",
+            "verified": true,
+            "genre": "male",
+            "link": ""
+        },
+        "postsCount": 1,
+        "followerCount": 5,
+        "followingCount": 8,
+        "latestOwnUS": [
+            "U0S0"
+        ],
+        "ownUS": [
+            "U0S0"
+        ],
+        "ownUT": [],
+        "latestOwnUP": [
+            "U0P0"
+        ],
+        "ownUP": [
+            "U0P0"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [
+            "U1",
+            "U4",
+            "U8",
+            "U5",
+            "U2",
+            "U6",
+            "U3",
+            "U7"
+        ],
+        "closeFriend": [
+            "U1",
+            "U8",
+            "U5",
+            "U2",
+            "U6",
+            "U3"
+        ]
+    },
+    {
+        "username": "U1",
+        "detailsU": {
+            "name": "Helena",
+            "biography": "",
+            "birthday": "",
+            "email": "Helena.1@email.com",
+            "phoneNumber": "",
+            "password": "password_Helena",
+            "profileImage": "",
+            "verified": false,
+            "genre": "male",
+            "link": ""
+        },
+        "postsCount": 4,
+        "followerCount": 6,
+        "followingCount": 2,
+        "latestOwnUS": [
+            "U1S0",
+            "U1S1"
+        ],
+        "ownUS": [
+            "U1S0",
+            "U1S1"
+        ],
+        "ownUT": [],
+        "latestOwnUP": [
+            "U1P0",
+            "U1P1",
+            "U1P2",
+            "U1P3"
+        ],
+        "ownUP": [
+            "U1P0",
+            "U1P1",
+            "U1P2",
+            "U1P3"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [
+            "U4",
+            "U6"
+        ],
+        "closeFriend": []
+    },
+    {
+        "username": "U2",
+        "detailsU": {
+            "name": "Cordie",
+            "biography": "",
+            "birthday": "",
+            "email": "Cordie.2@email.com",
+            "phoneNumber": "",
+            "password": "password_Cordie",
+            "profileImage": "",
+            "verified": true,
+            "genre": "male",
+            "link": ""
+        },
+        "postsCount": 0,
+        "followerCount": 5,
+        "followingCount": 9,
+        "latestOwnUS": [],
+        "ownUS": [],
+        "ownUT": [],
+        "latestOwnUP": [],
+        "ownUP": [],
+        "notify": [],
+        "blocked": [],
+        "follow": [
+            "U9",
+            "U1",
+            "U5",
+            "U4",
+            "U6",
+            "U3",
+            "U8",
+            "U0",
+            "U7"
+        ],
+        "closeFriend": [
+            "U9",
+            "U5",
+            "U4",
+            "U6",
+            "U3",
+            "U8",
+            "U0"
+        ]
+    },
+    {
+        "username": "U3",
+        "detailsU": {
+            "name": "Ebba",
+            "biography": "",
+            "birthday": "",
+            "email": "Ebba.3@email.com",
+            "phoneNumber": "",
+            "password": "password_Ebba",
+            "profileImage": "",
+            "verified": true,
+            "genre": "male",
+            "link": ""
+        },
+        "postsCount": 3,
+        "followerCount": 5,
+        "followingCount": 6,
+        "latestOwnUS": [
+            "U3S0",
+            "U3S1",
+            "U3S2"
+        ],
+        "ownUS": [
+            "U3S0",
+            "U3S1",
+            "U3S2"
+        ],
+        "ownUT": [],
+        "latestOwnUP": [
+            "U3P0",
+            "U3P1",
+            "U3P2"
+        ],
+        "ownUP": [
+            "U3P0",
+            "U3P1",
+            "U3P2"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [
+            "U9",
+            "U8",
+            "U4",
+            "U1",
+            "U0",
+            "U2"
+        ],
+        "closeFriend": [
+            "U9",
+            "U8",
+            "U4",
+            "U0",
+            "U2"
+        ]
+    },
+    {
+        "username": "U4",
+        "detailsU": {
+            "name": "Gui",
+            "biography": "",
+            "birthday": "",
+            "email": "Gui.4@email.com",
+            "phoneNumber": "",
+            "password": "password_Gui",
+            "profileImage": "",
+            "verified": true,
+            "genre": "male",
+            "link": ""
+        },
+        "postsCount": 3,
+        "followerCount": 7,
+        "followingCount": 0,
+        "latestOwnUS": [],
+        "ownUS": [],
+        "ownUT": [
+            "T1"
+        ],
+        "latestOwnUP": [
+            "U4P0",
+            "U4P1",
+            "U4P2"
+        ],
+        "ownUP": [
+            "U4P0",
+            "U4P1",
+            "U4P2"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [],
+        "closeFriend": []
+    },
+    {
+        "username": "U5",
+        "detailsU": {
+            "name": "Bessie",
+            "biography": "",
+            "birthday": "",
+            "email": "Bessie.5@email.com",
+            "phoneNumber": "",
+            "password": "password_Bessie",
+            "profileImage": "",
+            "verified": false,
+            "genre": "male",
+            "link": ""
+        },
+        "postsCount": 2,
+        "followerCount": 4,
+        "followingCount": 0,
+        "latestOwnUS": [
+            "U5S0",
+            "U5S1",
+            "U5S2"
+        ],
+        "ownUS": [
+            "U5S0",
+            "U5S1",
+            "U5S2"
+        ],
+        "ownUT": [],
+        "latestOwnUP": [
+            "U5P0",
+            "U5P1"
+        ],
+        "ownUP": [
+            "U5P0",
+            "U5P1"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [],
+        "closeFriend": []
+    },
+    {
+        "username": "U6",
+        "detailsU": {
+            "name": "Lonna",
+            "biography": "",
+            "birthday": "",
+            "email": "Lonna.6@email.com",
+            "phoneNumber": "",
+            "password": "password_Lonna",
+            "profileImage": "",
+            "verified": true,
+            "genre": "female",
+            "link": ""
+        },
+        "postsCount": 5,
+        "followerCount": 6,
+        "followingCount": 4,
+        "latestOwnUS": [
+            "U6S0",
+            "U6S1"
+        ],
+        "ownUS": [
+            "U6S0",
+            "U6S1"
+        ],
+        "ownUT": [
+            "T0"
+        ],
+        "latestOwnUP": [
+            "U6P0",
+            "U6P1",
+            "U6P2",
+            "U6P3"
+        ],
+        "ownUP": [
+            "U6P0",
+            "U6P1",
+            "U6P2",
+            "U6P3",
+            "U6P4"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [
+            "U1",
+            "U5",
+            "U2",
+            "U9"
+        ],
+        "closeFriend": [
+            "U5",
+            "U9"
+        ]
+    },
+    {
+        "username": "U7",
+        "detailsU": {
+            "name": "Harriett",
+            "biography": "",
+            "birthday": "",
+            "email": "Harriett.7@email.com",
+            "phoneNumber": "",
+            "password": "password_Harriett",
+            "profileImage": "",
+            "verified": true,
+            "genre": "male",
+            "link": ""
+        },
+        "postsCount": 4,
+        "followerCount": 3,
+        "followingCount": 7,
+        "latestOwnUS": [
+            "U7S0"
+        ],
+        "ownUS": [
+            "U7S0"
+        ],
+        "ownUT": [],
+        "latestOwnUP": [
+            "U7P0",
+            "U7P1",
+            "U7P2",
+            "U7P3"
+        ],
+        "ownUP": [
+            "U7P0",
+            "U7P1",
+            "U7P2",
+            "U7P3"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [
+            "U2",
+            "U4",
+            "U0",
+            "U6",
+            "U1",
+            "U3",
+            "U8"
+        ],
+        "closeFriend": [
+            "U0",
+            "U6"
+        ]
+    },
+    {
+        "username": "U8",
+        "detailsU": {
+            "name": "Ivy",
+            "biography": "",
+            "birthday": "",
+            "email": "Ivy.8@email.com",
+            "phoneNumber": "",
+            "password": "password_Ivy",
+            "profileImage": "",
+            "verified": true,
+            "genre": "other",
+            "link": ""
+        },
+        "postsCount": 1,
+        "followerCount": 4,
+        "followingCount": 8,
+        "latestOwnUS": [
+            "U8S0",
+            "U8S1"
+        ],
+        "ownUS": [
+            "U8S0",
+            "U8S1"
+        ],
+        "ownUT": [],
+        "latestOwnUP": [
+            "U8P0"
+        ],
+        "ownUP": [
+            "U8P0"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [
+            "U4",
+            "U9",
+            "U2",
+            "U6",
+            "U3",
+            "U7",
+            "U0",
+            "U1"
+        ],
+        "closeFriend": [
+            "U9",
+            "U2",
+            "U0"
+        ]
+    },
+    {
+        "username": "U9",
+        "detailsU": {
+            "name": "Bee",
+            "biography": "",
+            "birthday": "",
+            "email": "Bee.9@email.com",
+            "phoneNumber": "",
+            "password": "password_Bee",
+            "profileImage": "",
+            "verified": false,
+            "genre": "female",
+            "link": ""
+        },
+        "postsCount": 4,
+        "followerCount": 4,
+        "followingCount": 5,
+        "latestOwnUS": [
+            "U9S0"
+        ],
+        "ownUS": [
+            "U9S0"
+        ],
+        "ownUT": [],
+        "latestOwnUP": [
+            "U9P0",
+            "U9P1",
+            "U9P2",
+            "U9P3"
+        ],
+        "ownUP": [
+            "U9P0",
+            "U9P1",
+            "U9P2",
+            "U9P3"
+        ],
+        "notify": [],
+        "blocked": [],
+        "follow": [
+            "U3",
+            "U5",
+            "U0",
+            "U4",
+            "U6"
+        ],
+        "closeFriend": [
+            "U3",
+            "U4",
+            "U6"
+        ]
+    }
+]

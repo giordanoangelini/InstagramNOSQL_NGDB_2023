@@ -1,0 +1,219 @@
+[
+    {
+        "idThread": "T0",
+        "detailsT": {
+            "title": "",
+            "category": "",
+            "description": "",
+            "timestamp": 1694598167.414491
+        },
+        "ownUT": "U6",
+        "postscountT": 1,
+        "usersCountT": 7,
+        "partecipation": [
+            "U1",
+            "U2",
+            "U6",
+            "U8",
+            "U3",
+            "U0",
+            "U4"
+        ],
+        "includePT": [
+            "U9P0"
+        ],
+        "latestIncludePT": [
+            {
+                "idPost": "U9P0",
+                "detailsP": {
+                    "media": "",
+                    "isReel": false,
+                    "timestamp": 1694598167.363056,
+                    "description": "",
+                    "place": "",
+                    "music": ""
+                },
+                "ownUP": "U9",
+                "likesCountP": 10,
+                "includePH": [
+                    "H0",
+                    "H4"
+                ],
+                "likeUP": [
+                    "U2",
+                    "U1",
+                    "U7",
+                    "U4",
+                    "U9",
+                    "U8",
+                    "U0",
+                    "U3",
+                    "U5",
+                    "U6"
+                ],
+                "tagUP": [
+                    "U9",
+                    "U0",
+                    "U5"
+                ],
+                "mostLiked": []
+            }
+        ]
+    },
+    {
+        "idThread": "T1",
+        "detailsT": {
+            "title": "",
+            "category": "",
+            "description": "",
+            "timestamp": 1694598167.41452
+        },
+        "ownUT": "U4",
+        "postscountT": 4,
+        "usersCountT": 8,
+        "partecipation": [
+            "U5",
+            "U7",
+            "U9",
+            "U1",
+            "U2",
+            "U4",
+            "U8",
+            "U3"
+        ],
+        "includePT": [
+            "U6P1",
+            "U3P2",
+            "U7P0",
+            "U9P2"
+        ],
+        "latestIncludePT": [
+            {
+                "idPost": "U3P2",
+                "detailsP": {
+                    "media": "",
+                    "isReel": false,
+                    "timestamp": 1694598167.362409,
+                    "description": "",
+                    "place": "",
+                    "music": ""
+                },
+                "ownUP": "U3",
+                "likesCountP": 7,
+                "includePH": [
+                    "H0",
+                    "H1"
+                ],
+                "likeUP": [
+                    "U9",
+                    "U6",
+                    "U1",
+                    "U3",
+                    "U5",
+                    "U8",
+                    "U7"
+                ],
+                "tagUP": [],
+                "mostLiked": [
+                    {
+                        "idComment": "U7C1",
+                        "detailsC": {
+                            "content": "",
+                            "timestamp": 1694598167.367985
+                        },
+                        "ownUC": "U7",
+                        "tagUC": [],
+                        "likeUC": [],
+                        "includePC": "U3P2",
+                        "likesCountC": 2,
+                        "includeCH": [],
+                        "reply": []
+                    }
+                ]
+            },
+            {
+                "idPost": "U6P1",
+                "detailsP": {
+                    "media": "",
+                    "isReel": false,
+                    "timestamp": 1694598167.362454,
+                    "description": "",
+                    "place": "",
+                    "music": ""
+                },
+                "ownUP": "U6",
+                "likesCountP": 8,
+                "includePH": [
+                    "H1",
+                    "H2"
+                ],
+                "likeUP": [
+                    "U3",
+                    "U7",
+                    "U6",
+                    "U2",
+                    "U9",
+                    "U5",
+                    "U0",
+                    "U8"
+                ],
+                "tagUP": [],
+                "mostLiked": []
+            },
+            {
+                "idPost": "U7P0",
+                "detailsP": {
+                    "media": "",
+                    "isReel": false,
+                    "timestamp": 1694598167.363026,
+                    "description": "",
+                    "place": "",
+                    "music": ""
+                },
+                "ownUP": "U7",
+                "likesCountP": 7,
+                "includePH": [],
+                "likeUP": [
+                    "U8",
+                    "U7",
+                    "U5",
+                    "U9",
+                    "U6",
+                    "U0",
+                    "U1"
+                ],
+                "tagUP": [
+                    "U7"
+                ],
+                "mostLiked": []
+            },
+            {
+                "idPost": "U9P2",
+                "detailsP": {
+                    "media": "",
+                    "isReel": false,
+                    "timestamp": 1694598167.363068,
+                    "description": "",
+                    "place": "",
+                    "music": ""
+                },
+                "ownUP": "U9",
+                "likesCountP": 4,
+                "includePH": [
+                    "H3"
+                ],
+                "likeUP": [
+                    "U1",
+                    "U8",
+                    "U9",
+                    "U4"
+                ],
+                "tagUP": [
+                    "U0",
+                    "U9"
+                ],
+                "mostLiked": []
+            }
+        ]
+    }
+]

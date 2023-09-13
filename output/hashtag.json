@@ -1,0 +1,37 @@
+[
+    {
+        "idHashtag": "H0",
+        "text": "james",
+        "postsCountH": 13,
+        "commentsCountH": 10,
+        "storiesCountH": 2
+    },
+    {
+        "idHashtag": "H1",
+        "text": "ethiopia",
+        "postsCountH": 18,
+        "commentsCountH": 12,
+        "storiesCountH": 4
+    },
+    {
+        "idHashtag": "H2",
+        "text": "pharmacology",
+        "postsCountH": 6,
+        "commentsCountH": 10,
+        "storiesCountH": 14
+    },
+    {
+        "idHashtag": "H3",
+        "text": "duke",
+        "postsCountH": 18,
+        "commentsCountH": 15,
+        "storiesCountH": 9
+    },
+    {
+        "idHashtag": "H4",
+        "text": "rc",
+        "postsCountH": 3,
+        "commentsCountH": 5,
+        "storiesCountH": 0
+    }
+]
